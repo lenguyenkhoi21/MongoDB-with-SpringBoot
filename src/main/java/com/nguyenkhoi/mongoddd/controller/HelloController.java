@@ -19,6 +19,7 @@ public class HelloController {
     }
 
 
+
     @GetMapping("/hello/{id}")
     @Operation(summary = "Query hello table in database", description = "Info the id")
     @Parameter(description = "id of hello")
