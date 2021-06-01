@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: dev
+    active: development
   data:
     mongodb:
       username: spring
